@@ -7,49 +7,48 @@ import java.util.ArrayList;
 // YOUR CODE HERE
 // extends? implements?
 public class ABCFacade implements Renderer {
-    private ModuleA a;
-    private ModuleB b;
-    private ModuleC c;
+	private ModuleA a;
+	private ModuleB b;
+	private ModuleC c;
 
-    public ABCFacade() {
-	a = new ModuleA();
-	b = new ModuleB();
-	c = new ModuleC();
-	new Thread(a).start();
-	
-    }
+	public ABCFacade() {
+		a = new ModuleA();
+		b = new ModuleB();
+		c = new ModuleC();
+		new Thread(a).start();
+
+	}
 
 	@Override
 	public void outside() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void putBackground() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void putBody(AbstractList body) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void putBonus(AbstractList bonus) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void setSnakeColor(Color color) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
-    
-    // YOUR CODE HERE
-    // overwrite some methods that you inherit/implement
+	// YOUR CODE HERE
+	// overwrite some methods that you inherit/implement
 }
